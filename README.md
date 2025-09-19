@@ -1,12 +1,41 @@
-# React + Vite
+🎓 Student Management System (React + LocalStorage)
+📌 Project Overview:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Student Management System is a React-based web application that allows users to register, log in, and manage student details.
+It uses localStorage for storing user credentials and student records, making it lightweight and easy to run without a backend server.
 
-Currently, two official plugins are available:
+✨ Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1.🔐 User Authentication
 
-## Expanding the ESLint configuration
+Register with Full Name, Email, Password, Phone, Address
+Password stored in hashed format in localStorage
+Secure Login & Logout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2.📋 Student Dashboard
+
+View student records in card format
+Search students by Name, Roll Number, or Class
+Year-wise bar chart visualization of student data
+
+🛠️ CRUD Operations
+
+➕ Add new student
+✏️ Edit existing student
+❌ Delete student record
+
+3.🗂️ Project Flow
+Register → Login → Dashboard → (Add / Edit / Delete / Search Students) → Year Chart
+
+4.Install dependencies
+npm install
+
+5.Run the project
+npm run dev
+
+6. 📊 Tech Stack
+
+Frontend: React (Vite)
+State Management: React Hooks + LocalStorage
+Charts: Recharts
+Styling: CSS
